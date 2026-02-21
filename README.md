@@ -4,6 +4,23 @@ Official smart contracts deployed on Pentagon Chain.
 
 ---
 
+## 🔐 Security Bounty Program
+
+Found a vulnerability? We reward responsible disclosure.
+
+**Report to:** nftprof@pentagon.games
+
+| Severity | Reward |
+|----------|--------|
+| Critical | Up to $10,000 |
+| High | Up to $5,000 |
+| Medium | Up to $1,000 |
+| Low | Recognition |
+
+All public contracts below are eligible for bounty review.
+
+---
+
 ## Network Details
 
 | Item | Value |
@@ -39,6 +56,41 @@ Pentagon Chain's proposal for autonomous agent identity. Enables AI agents to se
 | Contract | Address | Description |
 |----------|---------|-------------|
 | PentagonAINFT | *Testnet* | ERC-7857A implementation |
+
+---
+
+## 📂 Public Contracts
+
+| Folder | Description | Code |
+|--------|-------------|------|
+| [ATS](./contracts/ATS/) | Agent Test Standard - Soulbound certification | ✅ Public |
+| [Badge](./contracts/Badge/) | Achievement badges | ✅ Public |
+| [Banana](./contracts/Banana/) | Sample commodity token | ✅ Public |
+| [EmotiCoin](./contracts/EmotiCoin/) | Pump.fun-style SocialFi launchpad | ✅ Public |
+| [FoundationHero](./contracts/FoundationHero/) | BCSH Foundation NFTs | ✅ Public |
+| [POW_SBT](./contracts/POW_SBT/) | Proof of Work soulbound tokens | ✅ Public |
+| [SuperHeroes](./contracts/SuperHeroes/) | Hero NFT collection | ✅ Public |
+| [SuperVillain](./contracts/SuperVillain/) | Villain NFT collection | ✅ Public |
+| [WPC](./contracts/WPC/) | Wrapped PC (ERC-20) | ✅ Public |
+
+---
+
+## 📄 Internal Contracts (Docs Only)
+
+The following contracts are documented but source code remains internal:
+
+| Contract | Description | Status |
+|----------|-------------|--------|
+| Gunnies | FPS game contracts | Docs only |
+| EtherFantasy | Mobile game contracts | Docs only |
+| PentaPets | Pet game contracts | Docs only |
+| Mining | NFT mining mechanics | Docs only |
+| NFTMarketplace | Marketplace contracts | Docs only |
+| PaymentProcessor | Payment routing | Docs only |
+| Khaos | Khaos token ecosystem | Docs only |
+| Farming | Yield farming | Docs only |
+
+*Contact us for partnership access to internal contracts.*
 
 ### DeFi (Pentaswap)
 
