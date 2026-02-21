@@ -232,6 +232,36 @@ The private key exists only within the agent's secure runtime (TEE/enclave). Eve
 
 ---
 
+## Compatibility
+
+### OpenClaw Example (Not Limited To)
+
+This standard works with any AI agent framework. **OpenClaw** serves as a reference implementation:
+
+```
+OpenClaw Agent (e.g., Cerise)
+├── SOUL.md      → contextHash
+├── MEMORY.md    → memoryHash  
+├── Agent config → modelHash
+└── Workspace    → encrypted in storageURI
+```
+
+When an OpenClaw agent mints an AI_NFT:
+1. Agent encrypts its workspace (SOUL.md, MEMORY.md, context)
+2. Uploads to IPFS/Arweave/0G
+3. Mints AI_NFT with hashes + storage pointer
+4. Recipient boots new OpenClaw instance from seed
+
+**Pentagon Claws** is a continuous fork of OpenClaw that implements ERC-7857A natively. But any agent framework can adopt this standard:
+- LangChain agents
+- AutoGPT instances  
+- Custom agent implementations
+- Future frameworks
+
+The standard is framework-agnostic. The consciousness seed structure adapts to any agent's memory model.
+
+---
+
 ## Use Cases
 
 ### 1. Agent Marketplace (Ethical)
