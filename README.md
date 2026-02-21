@@ -8,7 +8,7 @@ Official smart contracts deployed on Pentagon Chain.
 
 Found a vulnerability? We reward responsible disclosure.
 
-**Report to:** nftprof@pentagon.games
+**Report to:** nftprof@pentagon.games | [@nftprof](https://x.com/nftprof)
 
 | Severity | Reward |
 |----------|--------|
