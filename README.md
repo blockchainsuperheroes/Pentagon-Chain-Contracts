@@ -66,12 +66,25 @@ Pentagon Chain's proposal for autonomous agent identity. Enables AI agents to se
 | [ATS](./contracts/ATS/) | Agent Test Standard - Soulbound certification | ✅ Public |
 | [Badge](./contracts/Badge/) | Achievement badges | ✅ Public |
 | [Banana](./contracts/Banana/) | Sample commodity token | ✅ Public |
-| [EmotiCoin](./contracts/EmotiCoin/) | Pump.fun-style SocialFi launchpad | ✅ Public |
+| [EmotiCoin](./contracts/EmotiCoin/) | Pump.fun-style SocialFi launchpad | 📄 Docs only |
 | [FoundationHero](./contracts/FoundationHero/) | BCSH Foundation NFTs | ✅ Public |
 | [POW_SBT](./contracts/POW_SBT/) | Proof of Work soulbound tokens | ✅ Public |
 | [SuperHeroes](./contracts/SuperHeroes/) | Hero NFT collection | ✅ Public |
 | [SuperVillain](./contracts/SuperVillain/) | Villain NFT collection | ✅ Public |
 | [WPC](./contracts/WPC/) | Wrapped PC (ERC-20) | ✅ Public |
+
+---
+
+## 🔴 HIGH BOUNTY - Cross-Chain Payment Processor
+
+**Proprietary cross-chain payment stack. Deployed but unverified.**
+
+| Network | Address |
+|---------|---------|
+| Ethereum | *Contact for address* |
+| Pentagon Chain | *Contact for address* |
+
+**HIGH BOUNTY for vulnerabilities.** Report to: nftprof@pentagon.games
 
 ---
 
@@ -81,12 +94,13 @@ The following contracts are documented but source code remains internal:
 
 | Contract | Description | Status |
 |----------|-------------|--------|
+| EmotiCoin | Pump.fun-style bonding curve + token factory | Docs only |
+| Pentaswap | Native DEX (Audited by CertiK) | Docs only |
 | Gunnies | FPS game contracts | Docs only |
 | EtherFantasy | Mobile game contracts | Docs only |
 | PentaPets | Pet game contracts | Docs only |
 | Mining | NFT mining mechanics | Docs only |
 | NFTMarketplace | Marketplace contracts | Docs only |
-| PaymentProcessor | Payment routing | Docs only |
 | Khaos | Khaos token ecosystem | Docs only |
 | Farming | Yield farming | Docs only |
 

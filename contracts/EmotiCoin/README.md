@@ -60,12 +60,14 @@ EmotiCoin is Pentagon Chain's native SocialFi token platform. Create, launch, an
 
 ## Contracts
 
-| Contract | Description |
-|----------|-------------|
-| EmotiCoin.sol | ERC-20 token with bonding curve integration |
-| EmotiCoinFactory.sol | Deploy new tokens |
-| EmotiCoinCurve.sol | Bonding curve math |
-| EchoVaultBondingCurve.sol | Vault + graduation logic |
+| Contract | Description | Status |
+|----------|-------------|--------|
+| EmotiCoin | ERC-20 token with bonding curve integration | Internal |
+| EmotiCoinFactory | Deploy new tokens | Internal |
+| EmotiCoinCurve | Bonding curve math | Internal |
+| EchoVaultBondingCurve | Vault + graduation logic | Internal |
+
+*Contracts deployed on Pentagon Chain. Source code internal. Contact for partnership.*
 
 ---
 
