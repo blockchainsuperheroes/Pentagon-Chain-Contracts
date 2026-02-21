@@ -1,12 +1,12 @@
-# Wrapped PC (WPC)
+# Wrapped PEN (WPEN)
 
-**ERC-20 wrapped version of Pentagon Chain gas token**
+**ERC-20 wrapped version of PEN token**
 
 ---
 
 ## Overview
 
-WPC is the wrapped ERC-20 version of PC (Pentagon Chain's native gas token). Enables PC to be used in DeFi protocols, bridges, and smart contracts that require ERC-20 compatibility.
+WPEN is the wrapped ERC-20 version of PEN (Pentagon Games governance token). Enables PEN to be used in DeFi protocols and smart contracts.
 
 ---
 
@@ -14,17 +14,17 @@ WPC is the wrapped ERC-20 version of PC (Pentagon Chain's native gas token). Ena
 
 | Property | Value |
 |----------|-------|
-| Name | Wrapped PC |
-| Symbol | WPC |
+| Name | Wrapped PEN |
+| Symbol | WPEN |
 | Decimals | 18 |
-| Network | Pentagon Chain (3344) |
-| Ratio | 1 WPC = 1 PC |
+| Standard | ERC-20 |
+| Ratio | 1 WPEN = 1 PEN |
 
 ---
 
 ## Contract
 
-**Source:** [WPC.sol](./WPC.sol)
+**Source:** [WPEN.sol](./WPEN.sol)
 
 ---
 
@@ -55,30 +55,20 @@ WPC is the wrapped ERC-20 version of PC (Pentagon Chain's native gas token). Ena
 ## Usage
 
 ```javascript
-// Wrap PC to WPC
-await wpc.deposit({ value: ethers.parseEther("1.0") });
+// Wrap PEN to WPEN
+await wpen.deposit({ value: ethers.parseEther("1.0") });
 
-// Or just send PC directly to contract
-await signer.sendTransaction({ to: WPC_ADDRESS, value: ethers.parseEther("1.0") });
+// Or just send PEN directly
+await signer.sendTransaction({ to: WPEN_ADDRESS, value: ethers.parseEther("1.0") });
 
-// Unwrap WPC to PC
-await wpc.withdraw(ethers.parseEther("1.0"));
+// Unwrap WPEN to PEN
+await wpen.withdraw(ethers.parseEther("1.0"));
 
 // Standard ERC-20 operations
-await wpc.transfer(recipient, amount);
-await wpc.approve(spender, amount);
+await wpen.transfer(recipient, amount);
+await wpen.approve(spender, amount);
 ```
 
 ---
 
-## Use Cases
-
-- DEX liquidity pools
-- Lending protocols
-- Smart contract interactions
-- Cross-chain bridges
-- DeFi composability
-
----
-
-*Pentagon Chain - Wrapped Gas Token*
+*Pentagon Games - Wrapped PEN*

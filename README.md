@@ -72,6 +72,7 @@ Pentagon Chain's proposal for autonomous agent identity. Enables AI agents to se
 | [SuperHeroes](./contracts/SuperHeroes/) | Hero NFT collection | ✅ Public |
 | [SuperVillain](./contracts/SuperVillain/) | Villain NFT collection | ✅ Public |
 | [WPC](./contracts/WPC/) | Wrapped PC (ERC-20) | ✅ Public |
+| [WPEN](./contracts/WPEN/) | Wrapped PEN (ERC-20) | ✅ Public |
 
 ---
 
